@@ -124,6 +124,9 @@ section {
   font-size: 1.2rem;
   color: var(--color-grey-2);
   pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .controls .active-btn {
   background-color: var(--color-secondary);
@@ -194,7 +197,7 @@ section {
   -o-object-fit: cover;
      object-fit: cover;
   transition: all 0.4s ease-in-out;
-  filter: grayscale(100%);
+  filter: grayscale(60%);
 }
 .header-content .left-header .image img:hover {
   filter: grayscale(0);
@@ -429,7 +432,7 @@ section {
   font-size: 2rem;
   text-transform: uppercase;
   text-align: center;
-  color: #27ae60;
+  color: var(--color-secondary);
 }
 
 .about-stats {
