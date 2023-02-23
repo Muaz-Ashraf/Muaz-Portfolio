@@ -656,7 +656,7 @@ section {
   padding-top: 3.5rem;
 }
 .contact-content-con .left-contact {
-  flex: 2;
+  flex: 3;
 }
 .contact-content-con .left-contact h4 {
   margin-top: 1rem;
@@ -670,7 +670,7 @@ section {
 }
 .contact-content-con .left-contact .contact-info .contact-item {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 }
 .contact-content-con .left-contact .contact-info .contact-item p {
