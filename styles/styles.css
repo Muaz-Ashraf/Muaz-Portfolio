@@ -656,7 +656,7 @@ section {
   padding-top: 3.5rem;
 }
 .contact-content-con .left-contact {
-  flex: 3;
+  flex: 2;
 }
 .contact-content-con .left-contact h4 {
   margin-top: 1rem;
@@ -665,16 +665,18 @@ section {
   color: var(--color-secondary);
 }
 .contact-content-con .left-contact p {
-  margin: 1rem 0;
+  margin: 0.4em;
   line-height: 2rem;
 }
 .contact-content-con .left-contact .contact-info .contact-item {
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 .contact-content-con .left-contact .contact-info .contact-item p {
-  margin-left: 6em;
+  margin-left: 5em;
   margin-right: 0;
   padding: 0 !important;
 }

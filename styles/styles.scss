@@ -678,7 +678,7 @@ section {
   padding-top: 3.5rem;
 
   .left-contact {
-    flex: 3;
+    flex: 2;
     h4 {
       margin-top: 1rem;
       font-size: 2rem;
@@ -686,7 +686,7 @@ section {
       color: var(--color-secondary);
     }
     p {
-      margin: 1rem 0;
+      margin: 0.4em;
       line-height: 2rem;
     }
 
@@ -694,9 +694,11 @@ section {
       .contact-item {
         display: flex;
         align-items: flex-start;
-        justify-content: space-between;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
         p {
-          margin-left: 6em;
+          margin-left: 5em;
           margin-right: 0;
           padding: 0 !important;
         }
