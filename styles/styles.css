@@ -75,17 +75,8 @@ section {
 
 .active {
   display: block;
-  -webkit-animation: appear 1s ease-in-out;
-          animation: appear 1s ease-in-out;
+  animation: appear 1s ease-in-out;
   transform: translateY(0) scaleY(1);
-}
-@-webkit-keyframes appear {
-  0% {
-    transform: translateY(-100%) scaleY(0);
-  }
-  100% {
-    transform: translateY(0) scaleY(1);
-  }
 }
 @keyframes appear {
   0% {
@@ -236,16 +227,7 @@ section {
   width: 100%;
   height: 5px;
   background: linear-gradient(to right, #171618, #510844);
-  -webkit-animation: animate1 2s linear infinite;
-          animation: animate1 2s linear infinite;
-}
-@-webkit-keyframes animate1 {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(100%);
-  }
+  animation: animate1 2s linear infinite;
 }
 @keyframes animate1 {
   0% {
@@ -262,18 +244,8 @@ section {
   height: 100%;
   width: 5px;
   background: linear-gradient(to bottom, #171618, #510844);
-  -webkit-animation: animate2 2s linear infinite;
-          animation: animate2 2s linear infinite;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-}
-@-webkit-keyframes animate2 {
-  0% {
-    transform: translateY(-100%);
-  }
-  100% {
-    transform: translateY(100%);
-  }
+  animation: animate2 2s linear infinite;
+  animation-delay: 1s;
 }
 @keyframes animate2 {
   0% {
@@ -290,16 +262,7 @@ section {
   width: 100%;
   height: 5px;
   background: linear-gradient(to left, #171618, #510844);
-  -webkit-animation: animate3 2s linear infinite;
-          animation: animate3 2s linear infinite;
-}
-@-webkit-keyframes animate3 {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
+  animation: animate3 2s linear infinite;
 }
 @keyframes animate3 {
   0% {
@@ -316,18 +279,8 @@ section {
   height: 100%;
   width: 5px;
   background: linear-gradient(to top, #171618, #510844);
-  -webkit-animation: animate4 2s linear infinite;
-          animation: animate4 2s linear infinite;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-}
-@-webkit-keyframes animate4 {
-  0% {
-    transform: translateY(100%);
-  }
-  100% {
-    transform: translateY(-100%);
-  }
+  animation: animate4 2s linear infinite;
+  animation-delay: 1s;
 }
 @keyframes animate4 {
   0% {
@@ -339,22 +292,7 @@ section {
 }
 .header-content .right-header #changing::before {
   content: "";
-  -webkit-animation: animate infinite ease-in-out 9s;
-          animation: animate infinite ease-in-out 9s;
-}
-@-webkit-keyframes animate {
-  0% {
-    content: "Web Developer";
-  }
-  33% {
-    content: "React Developer";
-  }
-  66% {
-    content: "Frontend Dev";
-  }
-  100% {
-    content: "Web Developer";
-  }
+  animation: animate infinite ease-in-out 9s;
 }
 @keyframes animate {
   0% {
@@ -724,6 +662,7 @@ section {
   margin-top: 1rem;
   font-size: 2rem;
   text-transform: uppercase;
+  color: var(--color-secondary);
 }
 .contact-content-con .left-contact p {
   margin: 1rem 0;
@@ -735,8 +674,12 @@ section {
   justify-content: space-between;
 }
 .contact-content-con .left-contact .contact-info .contact-item p {
-  margin: 0.3rem 0 !important;
+  margin-left: 6em;
+  margin-right: 0;
   padding: 0 !important;
+}
+.contact-content-con .left-contact .contact-info .contact-item span {
+  white-space: nowrap;
 }
 .contact-content-con .left-contact .contact-info .contact-item .icon {
   display: grid;
@@ -746,6 +689,21 @@ section {
   display: flex;
   align-items: center;
   font-size: 1.3rem;
+}
+.contact-content-con .left-contact .contact-info .contact-item #copy-btn-1,
+.contact-content-con .left-contact .contact-info .contact-item #copy-btn-2 {
+  margin-left: 1em;
+  display: inline;
+  font-size: 0.9em;
+  color: #6c7983;
+}
+.contact-content-con .left-contact .contact-info .contact-item #copy-btn-1:hover,
+.contact-content-con .left-contact .contact-info .contact-item #copy-btn-2:hover {
+  cursor: pointer;
+}
+.contact-content-con .left-contact .contact-info .contact-item #copy-btn-1:active,
+.contact-content-con .left-contact .contact-info .contact-item #copy-btn-2:active {
+  color: var(--color-secondary);
 }
 .contact-content-con .left-contact .contact-icon {
   display: flex;
@@ -778,10 +736,10 @@ section {
 }
 .contact-content-con .right-contact {
   flex: 3;
-  margin-left: 3rem;
+  margin-left: 2em;
 }
 .contact-content-con .right-contact .input-control {
-  margin: 1.5rem 0;
+  margin: 2rem 0;
 }
 .contact-content-con .right-contact .input-control input,
 .contact-content-con .right-contact .input-control textarea {
@@ -805,7 +763,14 @@ section {
 }
 .contact-content-con .right-contact .submit-btn {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+}
+.contact-content-con .right-contact .submit-btn a {
+  padding: 1em;
+  background-color: var(--color-secondary);
+}
+.contact-content-con .right-contact .submit-btn:hover {
+  cursor: pointer;
 }
 
 /*Independed components*/
