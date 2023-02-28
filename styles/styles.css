@@ -457,14 +457,12 @@ section {
 }
 #technologies img {
   transition: all 0.5s ease-in-out;
-  opacity: 0.8;
   height: 10rem;
   width: 10rem;
   -o-object-fit: cover;
      object-fit: cover;
 }
 #technologies img:hover {
-  opacity: 1;
   cursor: pointer;
   transform: translateY(-10px) scale(1.3);
 }
