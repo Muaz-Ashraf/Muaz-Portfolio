@@ -99,7 +99,7 @@ section {
   transform: translateY(-50%);
 }
 .controls .control {
-  padding: 1rem;
+  padding: 0.4rem;
   cursor: pointer;
   background-color: var(--color-grey-4);
   width: 55px;
@@ -110,6 +110,9 @@ section {
   align-items: center;
   margin: 0.7rem 0;
   box-shadow: var(--box-shadow-1);
+}
+.controls .control:first-child {
+  padding: 0.3rem !important;
 }
 .controls .control i {
   font-size: 1.2rem;
@@ -455,12 +458,15 @@ section {
   margin: 1.5em;
   padding: 2em;
 }
+#technologies:last-child {
+  margin-bottom: 5em;
+}
 #technologies img {
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
   height: 10rem;
   width: 10rem;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 #technologies img:hover {
   cursor: pointer;
