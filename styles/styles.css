@@ -754,9 +754,12 @@ section {
   padding-left: 0;
 }
 
-@media screen and (max-width: 380px) {
-  #changing {
-    font-size: 1.3rem;
+@media screen and (max-width: 390px) {
+  .header-content .right-header #changing {
+    font-size: 1.4rem;
+  }
+  .header-content .right-header .name {
+    font-size: 2rem;
   }
 }
 @media screen and (max-width: 600px) {
@@ -962,7 +965,7 @@ section {
     margin: 0 auto;
   }
   .right-header .name {
-    font-size: 2.5rem !important;
+    font-size: 2.2rem !important;
     text-align: center;
     padding-top: 3rem;
   }
