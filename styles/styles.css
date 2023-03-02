@@ -464,7 +464,7 @@ section {
 #technologies img {
   transition: all 0.3s ease-in-out;
   height: 10rem;
-  width: 10rem;
+  width: auto;
   -o-object-fit: fill;
      object-fit: fill;
 }
