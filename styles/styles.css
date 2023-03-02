@@ -188,7 +188,7 @@ section {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .header-content .left-header .image img:hover {
   transform: scale(1.06);
@@ -754,6 +754,11 @@ section {
   padding-left: 0;
 }
 
+@media screen and (max-width: 380px) {
+  #changing {
+    font-size: 1.3rem;
+  }
+}
 @media screen and (max-width: 600px) {
   header {
     padding: 0 !important;
