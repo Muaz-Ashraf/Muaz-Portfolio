@@ -208,6 +208,7 @@ section {
 .header-content .right-header p {
   margin: 1.5rem 0;
   line-height: 2rem;
+  text-align: justify;
 }
 .header-content .right-header #changing {
   color: var(--color-secondary);
@@ -754,6 +755,14 @@ section {
   padding-left: 0;
 }
 
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  .header-content .right-header #changing {
+    font-size: 1.9rem;
+  }
+  .header-content .right-header p {
+    margin-right: 3rem;
+  }
+}
 @media screen and (max-width: 390px) {
   .header-content .right-header #changing {
     font-size: 1.4rem;

@@ -1,6 +1,14 @@
 .about-container .left-about p {
   padding-left: 0;
 }
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  .header-content .right-header #changing {
+    font-size: 1.9rem;
+  }
+  .header-content .right-header p {
+    margin-right: 3rem;
+  }
+}
 @media screen and (max-width: 390px) {
   .header-content .right-header #changing {
     font-size: 1.4rem;
