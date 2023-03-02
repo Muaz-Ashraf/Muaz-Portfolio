@@ -194,6 +194,7 @@ section {
       }
     }
   }
+  @import url("https://fonts.googleapis.com/css2?family=Labrada:wght@800&display=swap");
 
   .right-header {
     display: flex;
@@ -212,7 +213,7 @@ section {
     }
     #changing {
       color: var(--color-secondary);
-      font-size: 1.5rem;
+      font-size: 1.55rem;
 
       padding: 0.5em 0.7em 0.5em 0.7em;
       display: flex;
@@ -222,11 +223,12 @@ section {
       white-space: nowrap;
 
       text-transform: uppercase;
-      font-weight: 600;
+      font-weight: 800;
 
       overflow: hidden;
 
       border-radius: 15px;
+      font-family: Labrada, serif;
 
       span:nth-child(1) {
         position: absolute;
