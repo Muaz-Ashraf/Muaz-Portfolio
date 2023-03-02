@@ -197,7 +197,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 18rem;
+  padding-right: 10rem;
 }
 .header-content .right-header .name {
   font-size: 2rem;
@@ -211,8 +211,9 @@ section {
 }
 .header-content .right-header #changing {
   color: var(--color-secondary);
-  font-size: 1.55rem;
-  padding: 0.5em 0.7em 0.5em 0.7em;
+  font-size: 1.5rem;
+  width: auto;
+  padding: 0.7em 0.7em 0.7em 0.7em;
   display: flex;
   align-items: center;
   justify-content: center;
