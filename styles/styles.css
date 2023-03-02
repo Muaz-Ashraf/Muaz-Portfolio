@@ -548,11 +548,16 @@ section {
 .contact-content-con .left-contact {
   flex: 2;
 }
-.contact-content-con .left-contact h4 {
+.contact-content-con .left-contact h5 {
   margin-top: 1rem;
-  font-size: 2rem;
-  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-size: 1.7rem;
   color: var(--color-secondary);
+  text-align: center;
+}
+.contact-content-con .left-contact h5 i {
+  font-size: 1rem;
+  margin-left: 2rem;
 }
 .contact-content-con .left-contact p {
   margin: 0.4em;
@@ -597,15 +602,20 @@ section {
 .contact-content-con .left-contact .contact-info .contact-item #copy-btn-2:active {
   color: var(--color-secondary);
 }
-.contact-content-con .left-contact .contact-icon {
+.contact-content-con .left-contact .contact-icons {
+  border: 4px solid var(--color-secondary);
+  padding: 1rem;
+  border-radius: 25px;
+}
+.contact-content-con .left-contact .contact-icons .contact-icon {
   display: flex;
   margin-top: 2rem;
 }
-.contact-content-con .left-contact .contact-icon a {
+.contact-content-con .left-contact .contact-icons .contact-icon a {
   display: flex;
   align-items: center;
   color: var(--color-white);
-  background-color: var(--color-grey-5);
+  background-color: var(--color-secondary);
   cursor: pointer;
   justify-content: center;
   width: 50px;
@@ -614,13 +624,10 @@ section {
   margin: 0 0.4rem;
   transition: all 0.4s ease-in-out;
 }
-.contact-content-con .left-contact .contact-icon a:hover {
-  background-color: var(--color-secondary);
-}
-.contact-content-con .left-contact .contact-icon a:hover i {
+.contact-content-con .left-contact .contact-icons .contact-icon a:hover i {
   color: var(--color-primary);
 }
-.contact-content-con .left-contact .contact-icon a i {
+.contact-content-con .left-contact .contact-icons .contact-icon a i {
   display: flex;
   align-items: center;
   justify-content: center;
