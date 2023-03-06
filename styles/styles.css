@@ -448,15 +448,14 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0.5rem;
+  padding: 0.7rem;
 }
 .portfolios .portfolio-item .hover-items .portfolio-text p {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  margin-bottom: 0.5rem;
-  padding: 0.5rem;
+  text-align: left;
+  padding: 0.7rem;
 }
 .portfolios .portfolio-item .hover-items .icons {
   display: flex;
@@ -466,12 +465,12 @@ section {
 .portfolios .portfolio-item .hover-items .icons .icon {
   background-color: var(--color-primary);
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 1rem;
+  margin: 1rem;
   cursor: pointer;
   transition: all 0.4s ease-in-out;
 }
