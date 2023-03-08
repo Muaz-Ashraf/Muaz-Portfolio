@@ -405,7 +405,7 @@ section {
       line-height: 2rem;
       padding: 1rem;
       color: var(--color-grey-1);
-      text-align: justify;
+      text-align: justify !important;
     }
     h4 {
       font-size: 2rem;
@@ -492,13 +492,15 @@ section {
           align-items: center;
           text-align: center;
           padding: 0.7rem;
+          margin-top: 0.7rem;
         }
         p {
           display: flex;
           justify-content: center;
           align-items: center;
-          text-align: left;
+          text-align: justify;
           padding: 0.7rem;
+          line-height: 1.3em;
         }
       }
 
@@ -506,6 +508,7 @@ section {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: 1rem !important;
         .icon {
           background-color: var(--color-primary);
           border-radius: 50%;
@@ -514,7 +517,7 @@ section {
           display: flex;
           align-items: center;
           justify-content: center;
-          margin: 1rem;
+          margin: 0 0.6rem 0;
           cursor: pointer;
           transition: all 0.4s ease-in-out;
           i {
