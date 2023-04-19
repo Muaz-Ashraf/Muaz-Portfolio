@@ -688,6 +688,7 @@ section {
           border-radius: 50%;
           transition: all 0.4s ease-in-out;
           padding: 1rem;
+          margin-left: 0.3em;
           &:hover {
             i {
               color: var(--color-primary);
