@@ -614,7 +614,7 @@ section {
   color: var(--color-secondary);
 }
 .contact-content-con .left-contact .contact-icons {
-  padding: 0.5rem;
+  padding: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
