@@ -664,10 +664,11 @@ section {
       }
     }
     .contact-icons {
-      padding: 2em;
+      // padding: 2em;
+      margin: 0.5em 0;
 
       display: flex;
-      justify-content: center;
+      justify-content: flex-start;
       align-items: center;
 
       flex-direction: column;
@@ -679,7 +680,7 @@ section {
         display: flex;
 
         a {
-          margin: 1% 1%;
+          margin: 0.5em 0.2em;
           display: flex;
           align-items: center;
           justify-content: center;

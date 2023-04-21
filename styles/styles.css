@@ -614,9 +614,9 @@ section {
   color: var(--color-secondary);
 }
 .contact-content-con .left-contact .contact-icons {
-  padding: 2em;
+  margin: 0.5em 0;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
 }
@@ -628,7 +628,7 @@ section {
   display: flex;
 }
 .contact-content-con .left-contact .contact-icons .contact-icon a {
-  margin: 1% 1%;
+  margin: 0.5em 0.2em;
   display: flex;
   align-items: center;
   justify-content: center;
