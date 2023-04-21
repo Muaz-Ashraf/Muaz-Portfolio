@@ -620,33 +620,31 @@ section {
   align-items: center;
   flex-direction: column;
 }
+.contact-content-con .left-contact .contact-icons #connect {
+  width: 1em;
+  height: 1em;
+}
 .contact-content-con .left-contact .contact-icons .contact-icon {
   display: flex;
 }
 .contact-content-con .left-contact .contact-icons .contact-icon a {
+  margin: 1% 1%;
   display: flex;
   align-items: center;
-  color: var(--color-white);
-  background-color: var(--color-secondary);
-  cursor: pointer;
   justify-content: center;
-  width: 3.5em;
-  height: 3.5em;
+}
+.contact-content-con .left-contact .contact-icons .contact-icon a #gitlink {
+  background-color: white;
   border-radius: calc(infinity * 1px);
+}
+.contact-content-con .left-contact .contact-icons .contact-icon a img {
+  cursor: pointer;
+  width: 3em;
+  height: 3em;
   transition: all 0.4s ease-in-out;
-  margin: 0.9% 0.5%;
 }
-.contact-content-con .left-contact .contact-icons .contact-icon a:hover {
-  background-color: var(--color-grey-1);
-}
-.contact-content-con .left-contact .contact-icons .contact-icon a:hover i {
-  color: var(--color-primary);
-}
-.contact-content-con .left-contact .contact-icons .contact-icon a i {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2.2em;
+.contact-content-con .left-contact .contact-icons .contact-icon a img:hover {
+  transform: scale(1.06);
 }
 .contact-content-con .right-contact {
   flex: 3;

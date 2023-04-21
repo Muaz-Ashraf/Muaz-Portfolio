@@ -671,34 +671,48 @@ section {
       align-items: center;
 
       flex-direction: column;
+      #connect {
+        width: 1em;
+        height: 1em;
+      }
       .contact-icon {
         display: flex;
 
         a {
+          margin: 1% 1%;
           display: flex;
           align-items: center;
-          color: var(--color-white);
-          background-color: var(--color-secondary);
-          cursor: pointer;
           justify-content: center;
-          width: 3.5em;
-          height: 3.5em;
-          border-radius: calc(1px * infinity);
-          transition: all 0.4s ease-in-out;
 
-          margin: 0.9% 0.5%;
-          &:hover {
-            background-color: var(--color-grey-1);
-            i {
-              color: var(--color-primary);
+          #gitlink {
+            background-color: white;
+
+            border-radius: calc(1px * infinity);
+          }
+          img {
+            // color: var(--color-white);
+            // background-color: transparent;
+            cursor: pointer;
+
+            width: 3em;
+            height: 3em;
+            transition: all 0.4s ease-in-out;
+            // border-radius: calc(1px * infinity);
+            &:hover {
+              transform: scale(1.06);
+              // background-color: var(--color-grey-1);
+              // i {
+              //   color: var(--color-primary);
+              // }
             }
           }
-          i {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 2.2em;
-          }
+
+          // i {
+          //   display: flex;
+          //   align-items: center;
+          //   justify-content: center;
+          //   font-size: 2.2em;
+          // }
         }
       }
     }
